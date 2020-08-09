@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Homepage</title>
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background-color: black;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre {
+  color: lime;
+
+  text-aling: center;
+}
+
+/* Style the header */
+header {
+  background-color: #505050;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: lime;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #202020;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: black;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #505050;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      LWFlouisa
+    </header>
+
+    <nav>
+      <h3>Writing</h3>
+      <a href="#shortstories">Short Form</a><br />
+      <a href="#longstories">Long Form</a><br />
+      <a href="#poetry">Poetry</a><br />
+      <a href="#essays">Essays</a><br />
+      <a href="#conlang">Conlang</a><br />
+
+      <h3>Art</h3>
+      <a href="#sketches">Sketches</a><br />
+      <a href="#illustrations">Illustrations</a><br />
+      <a href="#painting">Painting</a><br />
+      <a href="#sequentialart">Sequential</a><br />
+      <a href="#comicscript">Scripts</a>
+
+      <h3>Repositories</h3>
+      <a href="https://github.io/Repositories">Repositories</a>
+
+      <h3>External</h3>
+      <a href="https://lwflouisa.github.io/WeaverBlog">Weaver Blog</a><br />
+      <a href="https://lwflouisa.github.io/UploadedFairyUpdates">Uploaded Fairy Updates</a><br />
+      <a href="https://lwflouisa.github.io/MyWebNovel/">My Web Novel</a>
+    </nav>
+
+    <section>
+      <article>
+        <center>
+        <h1>About</h1>
+        <p>I am a prose, poetry, and comic script writer. I am learning to draw my own art. I also program chatbots in Ruby, and learning Python and other languages.</p>
+
+        <img width="50%" src="https://raw.githubusercontent.com/LWFlouisa/WeaverBlog/master/images/image.jpg">
+      </center>
+      </article>
+    </section>
+
+    <footer>
+      <a href="#contact">Contact</a>
+    </footer>
+  </body>
+</html>
