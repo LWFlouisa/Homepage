@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Uploaded Fairy</title>
-  <link href="stylesheet.css" rel="stylesheet" />
-
+<!doctype html>
+<html>
+  <head>
+    <title>Homepage</title>
   <style>
 * {
   box-sizing: border-box;
@@ -25,7 +22,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, p, pre {
-  color: red;
+  color: lime;
 
   text-aling: center;
 }
@@ -38,30 +35,86 @@ header {
   padding: 30px;
   text-align: center;
   font-size: 54px;
-  color: red;
+  color: lime;
 }
-  </style>
-</head>
-<body dir="" class="kramdown">
-<div id="leanpub-toc">
-<h2>Table of Contents</h2>
-<ol class="toc">
-<ul class='toc no-parts'>
-  <li>
-    <a href='https://lwflouisa.github.io/Homepage/PurseDramas/glossaryFirstSig.png'>Glossary One</a>
-  </li>
-  <li>
-    <a href='https://lwflouisa.github.io/Homepage/PurseDramas/glossarySecondSig.png'>Glossary Two</a>
-  </li>
-</ul>
 
-</ol>
-</div>
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #000000;
+  padding: 20px;
+}
 
-  <div>
-    <center><header><h1>Purse Dramas</h1></header></center>
-    <img src="https://lwflouisa.github.io/Homepage/Images/page1.png">
-  </div>
-</div>
-</body>
-</html>
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: black;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/quartooneredo.png">First Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/secondfour.png">Second Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/thirdfour.png">Third Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/fourthfour.png">Fourth Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/fifthfour.png">Fifth Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/sixthfour.png">Sixth Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/seventhfour.png">Seventh Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/eighthfour.png">Eigth Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/ninethfour.png">Nineth Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/tenthfour.png">Tenth Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/elevententh.png">Eleventh Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/twelthfour.png">Twelth Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/thirteenthfour.png">Thirteenth Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/fourteenthfour.png">Fourteenth Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/fifteenthfour.png">Fifteenth Signature</a>
+      <a href="https://lwflouisa.github.io/Homepage/PurseDramas/sixteenthfour.png">Sixteenth Signature</a>
+    </nav>
+
+    <section>
+      <center><header>
+      purse dramas<br />studios<br />
+      MIO ESIOMIS DII HAFESTRAS.
+        </header></center>
+      <article>
+        <img src="https://lwflouisa.github.io/Homepage/Images/page1.png">
+        <p>Welecome to my Zine listing, where you can see the work in progress of the Uploaded Fairy zine.</p>
+      </article>
+    </section>
+
+    <footer>
+    </footer>
