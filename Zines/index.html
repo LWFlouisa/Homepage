@@ -6,23 +6,32 @@
   <link href="stylesheet.css" rel="stylesheet" />
 
   <style>
+* {
+  box-sizing: border-box;
+}
 
-  body {
-    background-color: black;
-  }
-  h1, h2, h3, h4, h5, h6, p, pre {
-    color: red;
-    font-family: monospace;
-    font-size: 16px;
-  }
-  a {
-    color: blue;
-    font-family: monospace;
-    font-size: 16px;
-  }
-    
- /* Style the header */
-h1 {
+body {
+  font-family: monospace;
+  background-color: black;
+}
+
+@font-face {
+  font-family: Hafestran;
+  src: url("https://lwflouisa.github.io/HafestranFont/Font/HafestranFont-Regular.otf");
+}
+
+p {
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre {
+  color: red;
+
+  text-aling: center;
+}
+
+/* Style the header */
+header {
   font-family: Hafestran;
   
   background-color: #000000;
@@ -31,7 +40,6 @@ h1 {
   font-size: 54px;
   color: red;
 }
-
   </style>
 </head>
 <body dir="" class="kramdown">
@@ -51,7 +59,7 @@ h1 {
 </div>
 
   <div>
-    <center><h1>Zines</h1></center>
+    <center><header><h1>Purse Dramas</h1></header></center>
     <img src="https://lwflouisa.github.io/Homepage/Images/page1.png">
     <p>These are the installments of my work in progress zine.</p>
   </div>
