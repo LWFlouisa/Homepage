@@ -70,14 +70,14 @@ iti rah sihapa<br />
 eneru, peruhes<br />
 beruni iti eneru, Marusa<br />
 Sifana.<br />
-
+<br />
 Sifana siruka sicohona,<br />
 aviesi peruhes<br />
 derusi eneru.<br />
 Sifana siruka sicohona<br />
 eneru.<br />
-
+<br />
 Sicohona si emiro,<br />
 sicohona si emiro.<br />
-
+<br />
 Vie es grande avec non les cochons.</p>
